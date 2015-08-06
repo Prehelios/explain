@@ -10,7 +10,7 @@ Make is inspired by the script of beneidel.
 
 install (or update to) last version
 
-curl -s https://benjamine.github.io/explain.sh/install.sh | sh
+curl -s https://Prehelios.io/explain.sh/install.sh | sh
 
 # Usage
 
