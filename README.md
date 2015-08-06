@@ -10,7 +10,10 @@ Make is inspired by the script of beneidel.
 
 install (or update to) last version
 
-curl -s https://Prehelios.github.io/explain.sh/explain.sh | sh
+Download and unzip the document the document then :
+
+sudo curl --silent explain.sh --output /usr/bin/explain.sh
+sudo chmod +x /usr/bin/explain.sh
 
 # Usage
 
