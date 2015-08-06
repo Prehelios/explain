@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 #
-# Open explainshell.com explaining a shell command
+# Open mankier.com explaining a shell command
 #
 # Usage: explain <command>
 
@@ -44,7 +44,7 @@ URL=$(echo "$URL" | sed -e 's/|/%7c/g')
 URL=$(echo "$URL" | sed -e 's/}/%7d/g')
 URL=$(echo "$URL" | sed -e 's/~/%7e/g')
 
-URL="ttps://www.mankier.com/?explain=$URL"
+URL="https://www.mankier.com/?explain=$URL"
 
 cmd="$BROWSER"
 if [ -z "$cmd" ]; then
