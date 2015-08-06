@@ -8,7 +8,7 @@ Make is inspired by the script of beneidel.
 
 # Install
 
-install (or update to) last version
+install:
 
 Download and unzip the document the document then :
 
